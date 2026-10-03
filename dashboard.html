@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard | COBRA FX</title><link rel="stylesheet" href="styles.css"><link rel="manifest" href="manifest.webmanifest"></head><body>
+
+<header class="topbar"><div class="container" style="display:flex;align-items:center;justify-content:space-between;width:100%">
+<a class="logo" href="index.html">COBRA <span>FX</span></a>
+<button class="menu-button btn btn-outline" data-menu aria-label="Open menu">☰</button><nav class="nav">
+<a href="bots.html">Free Bots</a><a href="builder.html">Bot Builder</a><a href="analysis.html">Analysis</a>
+<a href="manual.html">Manual Trader</a><a href="copy.html">Copy Trader</a><a href="charts.html">Live Charts</a>
+<a href="login.html">Log In</a><a class="btn btn-primary" href="signup.html">Get Started</a>
+</nav></div></header>
+<div class="ticker"><div class="container ticker-inner">
+<span>VOLATILITY 10 <b class="up">+0.82%</b></span><span>CRASH 500 <b class="down">-0.94%</b></span>
+<span>STEP INDEX <b class="up">+0.41%</b></span><span>VOLATILITY 25 <b class="up">+1.12%</b></span>
+</div></div>
+
+<main class="dashboard"><aside class="side">
+<a class="active" href="dashboard.html">◈ Dashboard</a><a href="builder.html">⚙ Bot Builder</a><a href="bots.html">🤖 Free Bots</a>
+<a href="analysis.html">▥ Analysis</a><a href="manual.html">▣ Manual Trading</a><a href="copy.html">◫ Copy Trader</a><a href="charts.html">⌁ Live Charts</a>
+<a href="settings.html">⚙ Settings</a><a href="index.html">↩ Log Out</a>
+</aside><section class="main">
+<div style="display:flex;justify-content:space-between;gap:15px;align-items:center;flex-wrap:wrap"><div><span class="pill">COBRA FX WORKSPACE</span><h1 style="font-size:44px;margin:18px 0 8px">Hello, Trader</h1><p style="color:#9ca9c9">Your trading tools are ready.</p></div><a class="btn btn-primary" href="settings.html">Account</a></div>
+<div class="quick" style="margin-top:25px"><a class="card" href="bots.html"><div class="icon">📁</div><h3>LOAD BOT</h3></a><a class="card" href="#"><div class="icon">🤖</div><h3>PREMIUM BOTS</h3></a><a class="card" href="#"><div class="icon">🚀</div><h3>SPEED BOT</h3></a><a class="card" href="manual.html"><div class="icon">☷</div><h3>MANUAL TRADING</h3></a></div>
+<div style="margin-top:25px" class="grid"><div class="card"><h3>Market Status</h3><p><span class="up">● Live</span> Workspace services operational.</p></div><div class="card"><h3>Quick Analysis</h3><p>Open analysis tools to review supported market information.</p><a class="btn btn-outline" href="analysis.html">Analyze</a></div><div class="card"><h3>Build a Strategy</h3><p>Start a new strategy using the visual builder.</p><a class="btn btn-primary" href="builder.html">Build Bot</a></div></div>
+</section></main>
+<script src="app.js"></script><script>if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});}</script></body></html>

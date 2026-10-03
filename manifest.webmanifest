@@ -1,0 +1,9 @@
+{
+  "name": "COBRA FX",
+  "short_name": "COBRA FX",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#020a2a",
+  "theme_color": "#020a2a",
+  "description": "COBRA FX trading tools and strategy workspace"
+}
